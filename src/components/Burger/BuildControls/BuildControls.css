@@ -1,0 +1,36 @@
+.BuildControls {
+    width: 100%;
+    background-color: #cf8f2e;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* box-shadow: 0 2px 1px #ccc; */
+    margin: auto;
+    padding: 10px 0;
+    /* justify-content: space-between; */
+}
+
+.GlutenCheck {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.GlutenCheck input {
+    display: inline;
+    /* padding: 100px;
+    margin: 0 5px;
+    width: 80px; */
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    margin: 5px 83.6px 5px 63.6px;
+}
+
+.GlutenLabel {
+    padding: 10px;
+    font-weight: bold;
+    width: 100px;
+}
