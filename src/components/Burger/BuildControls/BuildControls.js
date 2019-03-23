@@ -26,6 +26,11 @@ const buildControls = ( props ) => (
             <input type="checkbox" label="gluten free"></input>
     
         </div>
+        <button 
+            className={classes.OrderButton}
+            disabled={!props.purchasable}
+            onClick={props.ordered}>ORDER NOW
+        </button>
     </div>
     
 )
